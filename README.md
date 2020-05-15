@@ -5,3 +5,11 @@ process can detect a non-license plate region, each of which has unique complexi
 # Block Diagram
 The block diagram of vehicle plate detection and extraction is as shown in the below figure 
 ![](block2.png)
+
+# 1. PreProcessing 
+
+# 2. Edge Analysis 
+
+# 3. Morphology operations
+
+# 4. Dilation and Hole filling
