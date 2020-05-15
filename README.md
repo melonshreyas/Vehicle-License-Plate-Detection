@@ -13,7 +13,8 @@ Input images for project
 The input color image is converted into gray scale images.
 #
 Gray scale of input images
-#![](b14.png)
+#
+![](b14.png)
 #
 The extracted vehicle will be low contrast and blurred due to poor lighting conditions and distance of vehicle from the camera. This section intends to increase the quality of image acquired by de-noising and improving the contrast of image. Bilateral filter is a non-linear filter which is used to smoothen the image with reduced blurring effect and
 noise by more efficiently maintaining edges than median filter as shown in Figure below.
@@ -64,9 +65,9 @@ Eroded Images
 #
 Applying CCA and identifying the regions the region which is having more area is termed as license plate. In order to identify precisely use spectral anaylsis. 
 #
-![](q4.png)
+![](q4.jpg)
 #
-![](q5.png)
+![](q5.jpg)
 #
 Number plate detected
 #
