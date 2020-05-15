@@ -17,48 +17,57 @@ Gray scale of input images
 #
 The extracted vehicle will be low contrast and blurred due to poor lighting conditions and distance of vehicle from the camera. This section intends to increase the quality of image acquired by de-noising and improving the contrast of image. Bilateral filter is a non-linear filter which is used to smoothen the image with reduced blurring effect and
 noise by more efficiently maintaining edges than median filter as shown in Figure below.
-Bilaterally Filtered Images
-#![](b15.png)
+![](b15.png)
 #
 To improve the contrast, filtered image undergoes Adaptive Histogram Equalization(AHE).
 AHE performs better than a simple histogram equalization, since AHE relies on gray level,
 local characteristics and spatial co-ordinates of picture elements with Peak Signal Noise
 Ratio(PSNR), where as HE relies merely on the gray levels of picture elements having
 low PSNR.
-#![](b16.png)
-#
+![](b16.png)
+
 # 2. Edge Analysis 
 To detect edges, binary image undergoes sobel operation along x and y axis. The purpose is locating boundaries of some objects having vertical and horizontal edges in an image.
-#
 Morphologically opened images
-#![](b17.png)
+#
+![](b17.png)
 #
 Difference images
-#![](b18.png)
+#
+![](b18.png)
 #
 Preprocessed Binary images
-#![](b2.png)
+#
+![](b2.png)
 #
 # 3. Spectral Analysis
 #
 Edge analysed images
-#![](b4.png)
+#
+![](b4.png)
 #
 Dialted Edge
-#![](b19.png)
+#
+![](b19.png)
 #
 Hole filled
-#![](b4.png)
+#
+![](b4.png)
 #
 Morphologically opened images
-#![](b5.png)
+#
+![](b5.png)
 #
 Eroded Images
-#![](b6.png)
+#
+![](b6.png)
 #
 Applying CCA and identifying the regions the region which is having more area is termed as license plate. In order to identify precisely use spectral anaylsis. 
-#![](q4.png)
-#![](q5.png)
+#
+![](q4.png)
+#
+![](q5.png)
 #
 Number plate detected
-#![](b7.png)
+#
+![](b7.png)
