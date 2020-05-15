@@ -18,6 +18,7 @@ Gray scale of input images
 #
 The extracted vehicle will be low contrast and blurred due to poor lighting conditions and distance of vehicle from the camera. This section intends to increase the quality of image acquired by de-noising and improving the contrast of image. Bilateral filter is a non-linear filter which is used to smoothen the image with reduced blurring effect and
 noise by more efficiently maintaining edges than median filter as shown in Figure below.
+#
 ![](b15.png)
 #
 To improve the contrast, filtered image undergoes Adaptive Histogram Equalization(AHE).
@@ -25,6 +26,7 @@ AHE performs better than a simple histogram equalization, since AHE relies on gr
 local characteristics and spatial co-ordinates of picture elements with Peak Signal Noise
 Ratio(PSNR), where as HE relies merely on the gray levels of picture elements having
 low PSNR.
+#
 ![](b16.png)
 
 # 2. Edge Analysis 
