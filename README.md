@@ -74,3 +74,8 @@ Applying CCA and identifying the regions the region which is having more area is
 Number plate detected
 #
 ![](b7.png)
+
+# Additional Information
+For more information about this individual steps I have created separate repository for each step please refer to it. The information is also found in Report that i have uploaded. For understanding the project you can also refer to the Presentation or PPT file being uploaded.
+
+You can also see refer to IEEE website where I have published paper on this Link : https://ieeexplore.ieee.org/document/9002409.
